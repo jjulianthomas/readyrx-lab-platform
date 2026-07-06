@@ -1,0 +1,125 @@
+.dashboard-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 40px;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #d9dee7;
+}
+
+.dashboard-header h1, .patient-panel h1, .section-header h2 {
+  margin: 0;
+  color: #101722;
+  font-weight: 720;
+  letter-spacing: 0;
+}
+
+.dashboard-header h1 { font-size: 32px; line-height: 1.1; }
+.patient-panel h1 { font-size: 28px; line-height: 1.15; }
+.section-header h2 { font-size: 21px; line-height: 1.2; }
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #647184;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.75fr) minmax(420px, 1.25fr);
+  gap: 24px;
+  padding-top: 24px;
+}
+
+.panel {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.dashboard-state {
+  margin-top: 24px;
+  color: #465569;
+  font-weight: 650;
+}
+
+.dashboard-error {
+  border-color: #efb4b4;
+  color: #9d1f1f;
+  background: #fff8f8;
+}
+
+.section-header, .detail-list div, .table-row, .result-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.section-header { align-items: flex-start; gap: 14px; }
+.patient-panel { display: flex; flex-direction: column; gap: 18px; }
+.detail-list { display: grid; gap: 14px; margin: 0; }
+
+.detail-list dt, .table-row span, .panel-note, .result-card small {
+  color: #667386;
+  font-size: 13px;
+}
+
+.detail-list dd {
+  margin: 4px 0 0;
+  color: #17202c;
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.table-list { display: grid; gap: 0; margin-top: 16px; }
+
+.table-row {
+  min-height: 72px;
+  padding: 14px 0;
+  border-top: 1px solid #e7ebf0;
+}
+
+.table-row strong, .result-card strong {
+  display: block;
+  color: #111a25;
+  font-size: 16px;
+}
+
+.row-meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  text-align: right;
+}
+
+.panel-note { margin: 10px 0 0; }
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.result-card {
+  min-height: 104px;
+  padding: 15px;
+  border: 1px solid #e1e6ec;
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.result-card strong { margin: 4px 0; font-size: 22px; }

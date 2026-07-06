@@ -1,0 +1,86 @@
+[
+  {
+    "id": "result_lipid_jan",
+    "labOrderId": "order_lipid_jan",
+    "patientId": "patient_001",
+    "labId": "lab_labcorp",
+    "status": "final",
+    "accessionNumber": "LC-JAN-100",
+    "sourceMessageId": "fhir-report-lipid-jan",
+    "collectedAt": "2025-01-05T09:00:00.000Z",
+    "resultedAt": "2025-01-05T16:30:00.000Z",
+    "receivedAt": "2025-01-05T16:31:00.000Z",
+    "createdAt": "2025-01-05T16:31:00.000Z",
+    "updatedAt": "2025-01-05T16:31:00.000Z",
+    "biomarkers": [
+      {
+        "biomarkerId": "biomarker_ldl",
+        "displayName": "LDL Cholesterol",
+        "value": 142,
+        "unit": "mg/dL",
+        "flag": "high",
+        "sourceCode": "18262-6",
+        "observedAt": "2025-01-05T09:00:00.000Z",
+        "referenceRange": {
+          "high": 100,
+          "unit": "mg/dL"
+        }
+      },
+      {
+        "biomarkerId": "biomarker_hdl",
+        "displayName": "HDL Cholesterol",
+        "value": 49,
+        "unit": "mg/dL",
+        "flag": "low",
+        "sourceCode": "2085-9",
+        "observedAt": "2025-01-05T09:00:00.000Z",
+        "referenceRange": {
+          "low": 50,
+          "unit": "mg/dL"
+        }
+      }
+    ]
+  },
+  {
+    "id": "result_lipid_apr",
+    "labOrderId": "order_lipid_apr",
+    "patientId": "patient_001",
+    "labId": "lab_quest",
+    "status": "final",
+    "accessionNumber": "Q-APR-200",
+    "sourceMessageId": "hl7-report-lipid-apr",
+    "collectedAt": "2025-04-05T09:00:00.000Z",
+    "resultedAt": "2025-04-05T16:30:00.000Z",
+    "receivedAt": "2025-04-05T16:31:00.000Z",
+    "createdAt": "2025-04-05T16:31:00.000Z",
+    "updatedAt": "2025-04-05T16:31:00.000Z",
+    "biomarkers": [
+      {
+        "biomarkerId": "biomarker_ldl",
+        "displayName": "LDL Cholesterol",
+        "value": 118,
+        "unit": "mg/dL",
+        "flag": "high",
+        "sourceCode": "18262-6",
+        "observedAt": "2025-04-05T09:00:00.000Z",
+        "referenceRange": {
+          "high": 100,
+          "unit": "mg/dL"
+        }
+      },
+      {
+        "biomarkerId": "biomarker_hdl",
+        "displayName": "HDL Cholesterol",
+        "value": 55,
+        "unit": "mg/dL",
+        "flag": "normal",
+        "sourceCode": "2085-9",
+        "observedAt": "2025-04-05T09:00:00.000Z",
+        "referenceRange": {
+          "low": 50,
+          "unit": "mg/dL"
+        }
+      }
+    ]
+  }
+]

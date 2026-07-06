@@ -1,0 +1,85 @@
+[
+  {
+    "id": "biomarker_glucose",
+    "displayName": "Glucose",
+    "loincCode": "2345-7",
+    "defaultUnit": "mg/dL",
+    "category": "metabolic",
+    "referenceRanges": [
+      {
+        "low": 70,
+        "high": 99,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "id": "biomarker_total_cholesterol",
+    "displayName": "Total Cholesterol",
+    "loincCode": "2093-3",
+    "defaultUnit": "mg/dL",
+    "category": "lipid",
+    "referenceRanges": [
+      {
+        "low": 125,
+        "high": 200,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "id": "biomarker_ldl",
+    "displayName": "LDL Cholesterol",
+    "loincCode": "18262-6",
+    "defaultUnit": "mg/dL",
+    "category": "lipid",
+    "referenceRanges": [
+      {
+        "high": 100,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "id": "biomarker_hdl",
+    "displayName": "HDL Cholesterol",
+    "loincCode": "2085-9",
+    "defaultUnit": "mg/dL",
+    "category": "lipid",
+    "referenceRanges": [
+      {
+        "low": 50,
+        "unit": "mg/dL",
+        "appliesToSex": "female"
+      }
+    ]
+  },
+  {
+    "id": "biomarker_triglycerides",
+    "displayName": "Triglycerides",
+    "loincCode": "2571-8",
+    "defaultUnit": "mg/dL",
+    "category": "lipid",
+    "referenceRanges": [
+      {
+        "high": 150,
+        "unit": "mg/dL"
+      }
+    ]
+  },
+  {
+    "id": "biomarker_testosterone",
+    "displayName": "Testosterone",
+    "loincCode": "2986-8",
+    "defaultUnit": "ng/dL",
+    "category": "hormone",
+    "referenceRanges": [
+      {
+        "low": 15,
+        "high": 70,
+        "unit": "ng/dL",
+        "appliesToSex": "female"
+      }
+    ]
+  }
+]

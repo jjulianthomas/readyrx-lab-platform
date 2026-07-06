@@ -1,0 +1,28 @@
+[
+  {
+    "id": "patient_001",
+    "name": {
+      "given": "Avery",
+      "family": "Morgan"
+    },
+    "birthDate": "1988-04-12",
+    "sexAtBirth": "female",
+    "contact": {
+      "email": "avery.morgan@example.com",
+      "phone": "+15555550100"
+    },
+    "externalIds": [
+      {
+        "system": "lab-platform",
+        "value": "RRX-10001"
+      }
+    ],
+    "consent": {
+      "labOrdering": true,
+      "resultSharing": true,
+      "clinicalInsights": false
+    },
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "updatedAt": "2025-01-01T12:00:00.000Z"
+  }
+]

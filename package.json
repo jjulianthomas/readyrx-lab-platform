@@ -1,0 +1,16 @@
+{
+  "name": "healthcare-lab-platform",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm --workspace backend run build && npm --workspace frontend run build",
+    "dev:backend": "npm --workspace backend run dev",
+    "dev:frontend": "npm --workspace frontend run dev",
+    "test": "npm --workspace backend run test",
+    "typecheck": "npm --workspace backend run typecheck && npm --workspace frontend run typecheck"
+  }
+}

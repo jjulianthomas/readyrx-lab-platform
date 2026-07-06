@@ -1,0 +1,89 @@
+[
+  {
+    "id": "panel_lipid",
+    "name": "Lipid Panel",
+    "description": "Measures cholesterol fractions and triglycerides.",
+    "biomarkerIds": [
+      "biomarker_total_cholesterol",
+      "biomarker_ldl",
+      "biomarker_hdl",
+      "biomarker_triglycerides"
+    ],
+    "supportedLabIds": [
+      "lab_labcorp",
+      "lab_quest"
+    ],
+    "labCodes": [
+      {
+        "labId": "lab_labcorp",
+        "code": "LP-001",
+        "display": "Lipid Panel"
+      },
+      {
+        "labId": "lab_quest",
+        "code": "Q-LIPID-100",
+        "display": "Lipid Panel"
+      }
+    ],
+    "specimen": {
+      "specimenType": "blood",
+      "fastingRequired": true
+    },
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "updatedAt": "2025-01-01T12:00:00.000Z"
+  },
+  {
+    "id": "panel_cmp",
+    "name": "Comprehensive Metabolic Panel",
+    "description": "Measures metabolic health markers including glucose.",
+    "biomarkerIds": [
+      "biomarker_glucose"
+    ],
+    "supportedLabIds": [
+      "lab_labcorp",
+      "lab_quest"
+    ],
+    "labCodes": [
+      {
+        "labId": "lab_labcorp",
+        "code": "CMP-001",
+        "display": "Comprehensive Metabolic Panel"
+      },
+      {
+        "labId": "lab_quest",
+        "code": "Q-CMP-200",
+        "display": "Comprehensive Metabolic Panel"
+      }
+    ],
+    "specimen": {
+      "specimenType": "blood",
+      "fastingRequired": false
+    },
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "updatedAt": "2025-01-01T12:00:00.000Z"
+  },
+  {
+    "id": "panel_hormone",
+    "name": "Hormone Panel",
+    "description": "Measures selected hormone biomarkers.",
+    "biomarkerIds": [
+      "biomarker_testosterone"
+    ],
+    "supportedLabIds": [
+      "lab_labcorp"
+    ],
+    "labCodes": [
+      {
+        "labId": "lab_labcorp",
+        "code": "HORM-001",
+        "display": "Hormone Panel"
+      }
+    ],
+    "specimen": {
+      "specimenType": "blood",
+      "fastingRequired": false
+    },
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "updatedAt": "2025-01-01T12:00:00.000Z"
+  }
+]

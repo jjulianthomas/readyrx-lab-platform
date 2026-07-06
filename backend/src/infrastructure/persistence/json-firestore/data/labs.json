@@ -1,0 +1,46 @@
+[
+  {
+    "id": "lab_labcorp",
+    "name": "LabCorp",
+    "integrationType": "FHIR",
+    "active": true,
+    "supportedPanelIds": [
+      "panel_lipid",
+      "panel_cmp",
+      "panel_hormone"
+    ],
+    "externalIds": [
+      {
+        "system": "CLIA",
+        "value": "LABCORP-CLIA-SAMPLE"
+      }
+    ],
+    "endpoint": {
+      "baseUrl": "https://sandbox.labcorp.example/fhir"
+    },
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "updatedAt": "2025-01-01T12:00:00.000Z"
+  },
+  {
+    "id": "lab_quest",
+    "name": "Quest Diagnostics",
+    "integrationType": "HL7",
+    "active": true,
+    "supportedPanelIds": [
+      "panel_lipid",
+      "panel_cmp"
+    ],
+    "externalIds": [
+      {
+        "system": "CLIA",
+        "value": "QUEST-CLIA-SAMPLE"
+      }
+    ],
+    "endpoint": {
+      "receivingApplication": "QUEST",
+      "receivingFacility": "lab_quest"
+    },
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "updatedAt": "2025-01-01T12:00:00.000Z"
+  }
+]

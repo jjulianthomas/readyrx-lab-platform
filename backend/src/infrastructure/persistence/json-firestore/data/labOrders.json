@@ -1,0 +1,50 @@
+[
+  {
+    "id": "order_lipid_jan",
+    "patientId": "patient_001",
+    "labId": "lab_labcorp",
+    "status": "final_result",
+    "items": [
+      {
+        "panelId": "panel_lipid",
+        "labPanelCode": "LP-001"
+      }
+    ],
+    "orderingProvider": {
+      "id": "provider_001",
+      "name": "Dr. Taylor Reed",
+      "npi": "1234567890"
+    },
+    "billingType": "self_pay",
+    "idempotencyKey": "seed-order-lipid-jan",
+    "accessionNumber": "LC-JAN-100",
+    "externalOrderId": "labcorp-order-lipid-jan",
+    "submittedAt": "2025-01-04T14:00:00.000Z",
+    "createdAt": "2025-01-04T13:55:00.000Z",
+    "updatedAt": "2025-01-05T16:30:00.000Z"
+  },
+  {
+    "id": "order_lipid_apr",
+    "patientId": "patient_001",
+    "labId": "lab_quest",
+    "status": "final_result",
+    "items": [
+      {
+        "panelId": "panel_lipid",
+        "labPanelCode": "Q-LIPID-100"
+      }
+    ],
+    "orderingProvider": {
+      "id": "provider_001",
+      "name": "Dr. Taylor Reed",
+      "npi": "1234567890"
+    },
+    "billingType": "self_pay",
+    "idempotencyKey": "seed-order-lipid-apr",
+    "accessionNumber": "Q-APR-200",
+    "externalOrderId": "quest-order-lipid-apr",
+    "submittedAt": "2025-04-04T14:00:00.000Z",
+    "createdAt": "2025-04-04T13:55:00.000Z",
+    "updatedAt": "2025-04-05T16:30:00.000Z"
+  }
+]
