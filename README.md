@@ -40,6 +40,26 @@ The platform solves three practical healthcare problems:
 - Runtime-only JSON writes for local development behavior
 - Connected patient dashboard using a typed frontend API client
 
+## Technical Requirements
+
+Recommended local runtime:
+
+- Node.js `20.x` or newer
+- npm `10.x` or newer
+
+Primary framework and tooling versions:
+
+- TypeScript `5.6`
+- Express `4.18`
+- React `18.3`
+- Vite `8.1`
+- Vitest `4.1`
+- Zod `3.23`
+- Helmet `7.1`
+
+The project uses npm workspaces with separate backend and frontend packages.
+The lockfile was generated with npm and should be used for repeatable installs.
+
 ## Workflow
 
 ```mermaid
